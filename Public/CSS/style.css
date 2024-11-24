@@ -44,21 +44,20 @@ padding-right: 10px;
 .img{
   padding-top: 100px;
 }
-
 .ptext {
   font-family: Montserrat;
   position: absolute;
   text-align: center;
-  top: 45%;
+  top: 52%;
   width: 100%;
   font-size: 40px;
   letter-spacing: 8px;
-  color: #FFF;
+  color: #faf8fc;
   padding-top: 20px;
 }
 .block {
   height: 600px;
-  background-color: #79a3b1;
+  background-color: #5d7d88;
 }
 
 .block2{
