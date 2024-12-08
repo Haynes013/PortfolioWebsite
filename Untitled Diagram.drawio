@@ -34,10 +34,10 @@
         <mxCell id="NUh00WMstrIGhPTZJr8A-4" value="Internet" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
           <mxGeometry x="380" y="173.7" width="89.37" height="56.3" as="geometry" />
         </mxCell>
-        <mxCell id="NUh00WMstrIGhPTZJr8A-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;shape=link;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="NUh00WMstrIGhPTZJr8A-5" target="NUh00WMstrIGhPTZJr8A-7">
+        <mxCell id="NUh00WMstrIGhPTZJr8A-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.034;entryY=0.675;entryDx=0;entryDy=0;shape=link;fillColor=#dae8fc;strokeColor=#6c8ebf;entryPerimeter=0;" edge="1" parent="1" source="NUh00WMstrIGhPTZJr8A-5" target="NUh00WMstrIGhPTZJr8A-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NUh00WMstrIGhPTZJr8A-15" value="Send Alerts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NUh00WMstrIGhPTZJr8A-14">
+        <mxCell id="NUh00WMstrIGhPTZJr8A-15" value="3. Send Alerts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NUh00WMstrIGhPTZJr8A-14">
           <mxGeometry x="-0.1709" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
@@ -48,8 +48,61 @@
         <mxCell id="NUh00WMstrIGhPTZJr8A-6" value="TheHive" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
           <mxGeometry x="600" y="173.7" width="89.37" height="56.3" as="geometry" />
         </mxCell>
+        <mxCell id="NUh00WMstrIGhPTZJr8A-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;shape=link;" edge="1" parent="1" source="NUh00WMstrIGhPTZJr8A-7" target="NUh00WMstrIGhPTZJr8A-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NUh00WMstrIGhPTZJr8A-17" value="4. Enrich IOC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NUh00WMstrIGhPTZJr8A-16">
+          <mxGeometry x="-0.1573" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NUh00WMstrIGhPTZJr8A-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="NUh00WMstrIGhPTZJr8A-7" target="NUh00WMstrIGhPTZJr8A-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NUh00WMstrIGhPTZJr8A-19" value="5. Send Alerts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NUh00WMstrIGhPTZJr8A-18">
+          <mxGeometry x="0.1529" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NUh00WMstrIGhPTZJr8A-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;shape=link;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="NUh00WMstrIGhPTZJr8A-7" target="NUh00WMstrIGhPTZJr8A-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NUh00WMstrIGhPTZJr8A-21" value="6.Send Emails" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NUh00WMstrIGhPTZJr8A-20">
+          <mxGeometry x="0.3287" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NUh00WMstrIGhPTZJr8A-7" value="Shuffle" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
           <mxGeometry x="380" y="30" width="89.37" height="56.3" as="geometry" />
+        </mxCell>
+        <mxCell id="NUh00WMstrIGhPTZJr8A-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;shape=link;" edge="1" parent="1" source="NUh00WMstrIGhPTZJr8A-8" target="NUh00WMstrIGhPTZJr8A-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NUh00WMstrIGhPTZJr8A-23" value="7. Send &amp;amp; Receive Emails" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NUh00WMstrIGhPTZJr8A-22">
+          <mxGeometry x="-0.3461" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NUh00WMstrIGhPTZJr8A-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shape=link;" edge="1" parent="1" source="NUh00WMstrIGhPTZJr8A-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NUh00WMstrIGhPTZJr8A-25" value="Send Request Action" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NUh00WMstrIGhPTZJr8A-24">
+          <mxGeometry x="-0.1111" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="NUh00WMstrIGhPTZJr8A-8" value="SOC Analyst" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
           <mxGeometry x="660" y="350" width="100" height="70" as="geometry" />
